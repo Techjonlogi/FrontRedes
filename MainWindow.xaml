@@ -5,20 +5,98 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LiberMusic_Client"
         mc:Ignorable="d"
-        Title="Login" Height="650" Width="1050">
+        Title="Login" Height="500" Width="800">
     <Grid Background="{StaticResource AzulCastilloLight}">
         
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="230"/>
             <ColumnDefinition Width="*"/>
 
         </Grid.ColumnDefinitions>
         <Grid x:Name="LateralIzquierdo" Background="{StaticResource AzulCastillo}" Grid.Column="0">
+            <Image Source="/Recursos/Imagenes/Gato1.png" Width="250" Margin="0,0,0,0" Stretch="Fill">
+                
+            </Image>
             
         </Grid>
         <Grid Grid.Column="1">
-            
-            
+            <StackPanel Grid.Row="0" >
+                <TextBlock Text="Un Servicio de musica&#x0a;Pensado a tu manera" Style="{StaticResource TituloCamposStyle}" TextAlignment="center" FontSize="25" Height="80">
+                    
+                </TextBlock>
+                
+            </StackPanel>
+            <StackPanel Width="450" Margin="0,150,0,300">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <StackPanel>
+                            <TextBlock Text="Usuario" Style="{StaticResource TituloCamposStyle}">
+                                
+                            </TextBlock>
+                        </StackPanel>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <StackPanel Grid.Row="0">
+                            <TextBox Template="{StaticResource InputControlTemplate}">
+                                
+                            </TextBox>
+                        </StackPanel>
+                        
+                    </Grid>
+                </Grid>
+            </StackPanel>
+            <StackPanel Width="450" Margin="0,200,0,250">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <StackPanel Grid.Row="0">
+                            <TextBlock Text="Contraseña" Style="{StaticResource TituloCamposStyle}">
+                                
+                            </TextBlock>
+                        </StackPanel>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <StackPanel Grid.Row="0">
+                            <PasswordBox Template="{StaticResource PasswordControlTemplate}">
+                                
+                            </PasswordBox>
+                        </StackPanel>
+                    </Grid>
+
+                </Grid>
+            </StackPanel>
+            <Label Content="* Campos obligatorios" Style="{StaticResource MaterialDesignLabel}" 
+                       Foreground="{StaticResource Alert}" Width="450" Margin="0,250,0,150" />
+            <StackPanel Width="450" Margin="0,300,0,130">
+                <Grid>
+                    <StackPanel Grid.Row="0">
+                        <Button Content="Ingresar" Style="{StaticResource BotonPrincipalStyle}">
+                            
+                        </Button>
+                        
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+            <Label Content="¿No tienes Cuenta?" Style="{StaticResource MaterialDesignLabel}" 
+                       Foreground="{StaticResource Alert}"  Width="450" Margin="230,350,0,100" />
+            <StackPanel Width="450" Margin="0,400,0,30">
+                <Grid>
+                    <StackPanel Grid.Row="0">
+                        <Button Content="Registrarse" Style="{StaticResource BotonPrincipalStyle}">
+
+                        </Button>
+
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+
         </Grid>
         
 
