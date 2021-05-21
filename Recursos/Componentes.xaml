@@ -2,6 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
                     xmlns:local="clr-namespace:LiberMusic_Client.Recursos">
+    
     <Style x:Key="BotonPrincipalStyle" TargetType="Button">
         <Setter Property="Width" Value="130"/>
         <Setter Property="Height" Value="50"/>
@@ -67,13 +68,13 @@
     </Style>
 
     <Style x:Key="TituloStyle" TargetType="TextBlock" BasedOn="{StaticResource MaterialDesignHeadline5TextBlock}">
-        <Setter Property="Foreground" Value="{StaticResource GrisClaro}"/>
+        <Setter Property="Foreground" Value="{StaticResource Gris}"/>
         <Setter Property="FontWeight" Value="Bold"/>
     </Style>
 
     <Style x:Key="TituloCamposStyle" TargetType="TextBlock" BasedOn="{StaticResource MaterialDesignCaptionTextBlock}">
         <Setter Property="VerticalAlignment" Value="Center"/>
-        <Setter Property="Foreground" Value="{StaticResource GrisClaro}"/>
+        <Setter Property="Foreground" Value="{StaticResource Gris}"/>
         <Setter Property="FontWeight" Value="SemiBold"/>
         <Setter Property="FontSize" Value="16"/>
     </Style>
@@ -162,7 +163,7 @@
     </Style>
 
     <Style x:Key="ContenidoDialogoMensaje" TargetType="TextBlock" BasedOn="{StaticResource MaterialDesignBody1TextBlock}">
-        <Setter Property="Foreground" Value="{StaticResource GrisClaro}"/>
+        <Setter Property="Foreground" Value="{StaticResource Gris}"/>
         <Setter Property="FontSize" Value="20"/>
         <Setter Property="TextAlignment" Value="Center"/>
     </Style>
