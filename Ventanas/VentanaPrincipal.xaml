@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:LiberMusic_Client.Ventanas"
         mc:Ignorable="d"
         WindowState="Maximized"
-        Title="VentanaPrincipal" Height="1080" Width="800" Icon="/Recursos/Imagenes/Icon.png">
+        Title="VentanaPrincipal" Height="1080" Width="800" Icon="C:\Users\jhoni\Documents\Proyecto redes\db\Front\LiberMusic_Client\Recursos\Imagenes\Icon.png">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="230"/>
@@ -19,10 +19,10 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
+     
                
             </Grid.RowDefinitions>
-            <Image Grid.Row="0" Source="/Recursos/Imagenes/Icon.png"/>
+            <Image Grid.Row="0" Source="C:\Users\jhoni\Documents\Proyecto redes\db\Front\LiberMusic_Client\Recursos\Imagenes\Icon.png"/>
             <StackPanel Grid.Row="1">
                 <TextBlock Text="LiberMusic" Style="{StaticResource NombreUsuarioStyle}"  TextAlignment="Center">
                     
@@ -46,37 +46,13 @@
                 </Button>
 
             </StackPanel>
-            <StackPanel Grid.Row="5">
-                <StackPanel>
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="100"/>
-                            <ColumnDefinition Width="*"/>
-                        </Grid.ColumnDefinitions>
-                        <Grid Grid.Column="0">
-                            <StackPanel Margin="0,15,0,0">
-                                <TextBox Template="{StaticResource InputControlTemplate}" >
-                                    
-                                </TextBox>
-                            </StackPanel>
-                        </Grid>
-                        <Grid Grid.Column="1">
-                            <StackPanel>
-                                <Button Style="{StaticResource BotonPrincipalStyle}" Content="Buscar" HorizontalAlignment="Center">
-                                    
-                                </Button>
-                            </StackPanel>
-                        </Grid>
-                    </Grid>
-                </StackPanel>
-
-            </StackPanel>
+          
 
 
         </Grid>
         <Grid Grid.Column="1">
             <Frame x:Name="PaginaFrame"  Grid.Row="1" NavigationUIVisibility="Hidden" 
-                   Source="/Paginas/Login.xaml"/>
+                   Source="/Paginas/Canciones.xaml"/>
         </Grid>
        
 

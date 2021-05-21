@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace LiberMusic_Client.Paginas
 {
     /// <summary>
-    /// Lógica de interacción para Login.xaml
+    /// Lógica de interacción para VerListarReproduccion.xaml
     /// </summary>
-    public partial class Login : Page
+    public partial class VerListarReproduccion : Page
     {
-        public Login()
+        public VerListarReproduccion()
         {
             InitializeComponent();
         }
