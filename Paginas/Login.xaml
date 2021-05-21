@@ -5,11 +5,20 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:LiberMusic_Client.Paginas"
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="1000"
       Title="Login">
 
-    <ScrollViewer>
-        
+    <ScrollViewer Background="{StaticResource AzulCastilloLight}">
+        <Grid>
+            <StackPanel>
+                <TextBlock Text="hola puto" Style="{StaticResource TituloCamposStyle} "/>
+            </StackPanel>
+
+            <Button Content="Button" HorizontalAlignment="Left" Margin="205,247,0,0" VerticalAlignment="Top" Style="{StaticResource BotonPrincipalStyle}"/>
+            <TextBox HorizontalAlignment="Left" Margin="270,110,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" Template="{StaticResource InputControlTemplate}" Cursor="IBeam"/>
+        </Grid>
+
     </ScrollViewer>
 </Page>

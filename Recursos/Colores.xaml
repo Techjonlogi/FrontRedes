@@ -2,5 +2,14 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:local="http://materialdesigninxaml.net/winfx/xaml/themes">
 
-    <Brush x:Key="AzulCastillo">#5B6AF5</Brush>
+    <Brush x:Key="Negro">#121212</Brush>
+    <Brush x:Key="Celeste">#8cd9f7</Brush>
+    <Brush x:Key="Blanco">#ffffff</Brush>
+    <Brush x:Key="AzulFondo">#133138</Brush>
+    <Brush x:Key="violeta">#7e7dde</Brush>
+    <Brush x:Key="Azul">#69a1b8</Brush>
+    <Brush x:Key="Melon">#ff8666</Brush>
+    <Brush x:Key="Alert">#FF0000</Brush>
+    <Brush x:Key="Blanco">#FFF</Brush>
+    <Brush x:Key="GrisClaro">#545871</Brush>
 </ResourceDictionary>
