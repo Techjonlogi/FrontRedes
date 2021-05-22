@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         WindowState="Maximized"
         Title="VentanaPrincipal" Height="1080" Width="800" Icon="C:\Users\jhoni\Documents\Proyecto redes\db\Front\LiberMusic_Client\Recursos\Imagenes\Icon.png">
+ 
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="230"/>

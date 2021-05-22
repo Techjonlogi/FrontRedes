@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:LiberMusic_Client.Paginas.Paginas_Admin"
       mc:Ignorable="d" 
       Width="Auto" Height="Auto"
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="700" d:DesignWidth="1000"
       Title="RegistrarCancion">
 
     <Grid Background="{StaticResource AzulCastilloLight}">

@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace LiberMusic_Client.Paginas.PaginasAdmin
 {
     /// <summary>
-    /// Lógica de interacción para AgregarAlbum.xaml
+    /// Lógica de interacción para ValidarCancines.xaml
     /// </summary>
-    public partial class AgregarAlbum : Page
+    public partial class ValidarCancines : Page
     {
-        public AgregarAlbum()
+        public ValidarCancines()
         {
             InitializeComponent();
         }
