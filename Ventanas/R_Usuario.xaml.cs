@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LiberMusic_Client.Paginas
+namespace LiberMusic_Client.Ventanas
 {
     /// <summary>
-    /// Lógica de interacción para Login.xaml
+    /// Lógica de interacción para R_Usuario.xaml
     /// </summary>
-    public partial class Login : Page
+    public partial class R_Usuario : Window
     {
-        public Login()
+        public R_Usuario()
         {
             InitializeComponent();
         }
