@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace LiberMusic_Client.Ventanas
 {
     /// <summary>
-    /// Lógica de interacción para R_Usuario.xaml
+    /// Lógica de interacción para RegistrarUsuario.xaml
     /// </summary>
-    public partial class R_Usuario : Window
+    public partial class RegistrarUsuario : Window
     {
-        public R_Usuario()
+        public RegistrarUsuario()
         {
             InitializeComponent();
         }
