@@ -56,13 +56,13 @@
     </Style>
 
     <Style x:Key="NombreUsuarioStyle" TargetType="TextBlock" BasedOn="{StaticResource MaterialDesignHeadline6TextBlock}">
-        <Setter Property="Foreground" Value="{StaticResource Blanco}"/>
+        <Setter Property="Foreground" Value="{StaticResource AzulCastilloLight}"/>
         <Setter Property="HorizontalAlignment" Value="Center"/>
         <Setter Property="TextWrapping" Value="WrapWithOverflow"/>
     </Style>
 
     <Style x:Key="TipoUsuarioStyle" TargetType="TextBlock" BasedOn="{StaticResource MaterialDesignSubtitle1TextBlock}">
-        <Setter Property="Foreground" Value="{StaticResource Blanco}"/>
+        <Setter Property="Foreground" Value="{StaticResource AzulCastilloLight}"/>
         <Setter Property="HorizontalAlignment" Value="Center"/>
         <Setter Property="TextWrapping" Value="WrapWithOverflow"/>
     </Style>

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LiberMusic_Client"
         mc:Ignorable="d"
-        Title="Login" Height="500" Width="800">
+        Title="Login" Height="600" Width="800" Icon="C:\Users\jhoni\Documents\Proyecto redes\db\Front\LiberMusic_Client\Recursos\Imagenes\Icon.png">
     <Grid Background="{StaticResource AzulCastilloLight}">
         
         <Grid.ColumnDefinitions>
@@ -14,8 +14,9 @@
 
         </Grid.ColumnDefinitions>
         <Grid x:Name="LateralIzquierdo" Background="{StaticResource AzulCastillo}" Grid.Column="0">
-            <Image Source="/Recursos/Imagenes/Gato1.png" Width="250" Margin="0,0,0,0" Stretch="Fill">
+            <Image Source="C:\Users\jhoni\Documents\Proyecto redes\db\Front\LiberMusic_Client\Recursos\Imagenes\Gato1.png" Width="250" Margin="0,0,0,0" Stretch="Fill" >
                 
+
             </Image>
             
         </Grid>

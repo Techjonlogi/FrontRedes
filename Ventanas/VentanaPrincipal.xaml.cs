@@ -12,18 +12,25 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using LiberMusic_Client.Paginas;
 
-namespace LiberMusic_Client
+namespace LiberMusic_Client.Ventanas
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Lógica de interacción para VentanaPrincipal.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class VentanaPrincipal : Window
     {
-        public MainWindow()
+        public VentanaPrincipal()
         {
             InitializeComponent();
+           
         }
-     
+
+
+        private void CambiarPagina(object sender, RoutedEventArgs e)
+        {
+            PaginaFrame.Content = new Canciones();
+        }
     }
 }

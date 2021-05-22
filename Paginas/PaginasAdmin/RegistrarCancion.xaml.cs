@@ -13,17 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LiberMusic_Client
+namespace LiberMusic_Client.Paginas.Paginas_Admin
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Lógica de interacción para RegistrarCancion.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class RegistrarCancion : Page
     {
-        public MainWindow()
+        public RegistrarCancion()
         {
             InitializeComponent();
         }
-     
     }
 }

@@ -10,20 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LiberMusic_Client
+namespace LiberMusic_Client.Ventanas
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Lógica de interacción para VentanaPrincipalCreador.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class VentanaPrincipalCreador : Window
     {
-        public MainWindow()
+        public VentanaPrincipalCreador()
         {
             InitializeComponent();
         }
-     
     }
 }

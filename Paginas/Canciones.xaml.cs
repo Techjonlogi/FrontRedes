@@ -12,18 +12,20 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
-namespace LiberMusic_Client
+using LiberMusic_Client.Properties;
+namespace LiberMusic_Client.Paginas
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Lógica de interacción para Canciones.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Canciones : Page
     {
-        public MainWindow()
+        public Canciones()
         {
             InitializeComponent();
+      
+
+         
         }
-     
     }
 }
