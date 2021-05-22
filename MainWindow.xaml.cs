@@ -24,6 +24,6 @@ namespace LiberMusic_Client
         {
             InitializeComponent();
         }
-        //que ta esto
+     
     }
 }

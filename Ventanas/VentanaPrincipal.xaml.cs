@@ -10,7 +10,9 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
+using LiberMusic_Client.Paginas;
 
 namespace LiberMusic_Client.Ventanas
 {
@@ -22,6 +24,13 @@ namespace LiberMusic_Client.Ventanas
         public VentanaPrincipal()
         {
             InitializeComponent();
+           
+        }
+
+
+        private void CambiarPagina(object sender, RoutedEventArgs e)
+        {
+            PaginaFrame.Content = new Canciones();
         }
     }
 }

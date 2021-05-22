@@ -1,12 +1,12 @@
-﻿<Window x:Class="LiberMusic_Client.Ventanas.VentanaPrincipal"
+﻿<Window x:Class="LiberMusic_Client.Ventanas.VentanaPrincipalCreador"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LiberMusic_Client.Ventanas"
         mc:Ignorable="d"
-        WindowState="Maximized"
-        Title="VentanaPrincipal" Height="1080" Width="800" Icon="C:\Users\jhoni\Documents\Proyecto redes\db\Front\LiberMusic_Client\Recursos\Imagenes\Icon.png">
+         WindowState="Maximized"
+        Title="VentanaPrincipalAdmin" Height="1080" Width="800" Icon="C:\Users\jhoni\Documents\Proyecto redes\db\Front\LiberMusic_Client\Recursos\Imagenes\Icon.png">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="230"/>
@@ -19,20 +19,21 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
-     
-               
+                <RowDefinition Height="*"/>
+
+
             </Grid.RowDefinitions>
             <Image Grid.Row="0" Source="C:\Users\jhoni\Documents\Proyecto redes\db\Front\LiberMusic_Client\Recursos\Imagenes\Icon.png"/>
             <StackPanel Grid.Row="1">
                 <TextBlock Text="LiberMusic" Style="{StaticResource NombreUsuarioStyle}"  TextAlignment="Center">
-                    
+
                 </TextBlock>
             </StackPanel>
             <StackPanel Grid.Row="2">
-                <Button Content="Cuenta" Style="{StaticResource BotonPrincipalStyle}" Click="CambiarPagina">
-                    
+                <Button Content="Cuenta Admin" Style="{StaticResource BotonPrincipalStyle}">
+
                 </Button>
-                
+
             </StackPanel>
             <StackPanel Grid.Row="3">
                 <Button Content="ListaReproduccion" Style="{StaticResource BotonPrincipalStyle}">
@@ -46,15 +47,22 @@
                 </Button>
 
             </StackPanel>
-          
+            <StackPanel Grid.Row="5">
+                <Button Content="Adm Contenido" Style="{StaticResource BotonPrincipalStyle}">
+
+                </Button>
+
+            </StackPanel>
+
+
 
 
         </Grid>
         <Grid Grid.Column="1">
-            <Frame x:Name="PaginaFrame"  Grid.Row="1" NavigationUIVisibility="Hidden" 
-                   Source="/Paginas/PaginasAdmin/RegistrarCancion.xaml"/>
+            <Frame x:Name="PaginaFrameAdmin"  Grid.Row="1" NavigationUIVisibility="Hidden" 
+                   Source="/Paginas/ReproducirCancion.xaml"/>
         </Grid>
-       
+
 
 
     </Grid>
